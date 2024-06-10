@@ -1,5 +1,6 @@
+"use client"
+
 import React, { useState } from "react";
-import Filter from "../search/filter";
 import FormControl from "@mui/joy/FormControl";
 import FormLabel from "@mui/joy/FormLabel";
 import Textarea from "@mui/joy/Textarea";
