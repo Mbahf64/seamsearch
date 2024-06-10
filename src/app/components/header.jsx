@@ -12,7 +12,7 @@ const Header = () => {
               className="h-[66px] w-[183px] relative object-cover"
               loading="lazy"
               alt=""
-              src="logo.png"
+              src="Logo.png"
             />
           </div>
         </div>

@@ -24,7 +24,7 @@ const Hero = () => {
           className="w-[571px] h-[90px] absolute !m-[0] top-[77px] left-[373.5px]"
           loading="lazy"
           alt=""
-          src="/vector.png"
+          src="/Vector.png"
         />
         <b className="self-stretch relative tracking-[-0.01em] leading-[120%] z-[1] mq450:text-15xl mq450:leading-[46px] mq1050:text-26xl mq1050:leading-[61px]">
           <span>Explore Every Corner of Retail with Ease,</span>
@@ -49,7 +49,7 @@ const Hero = () => {
           <img
             className="h-6 w-6 relative overflow-hidden shrink-0"
             alt=""
-            src="/icon.png"
+            src="/Icon.png"
           />
           <b className="flex-1 relative text-base leading-[26px] inline-block font-body-sub-heading-16-bold text-data-analysis-color03 text-center min-w-[120px]">
             Watch A Demo
@@ -67,7 +67,7 @@ const Hero = () => {
       className="absolute h-[calc(100%_-_3.3px)] top-[0px] bottom-[3.3px] left-[24px] rounded-[15.38px] max-h-full w-[234.7px] overflow-hidden object-contain z-[2]"
       loading="lazy"
       alt=""
-      src="/chart.png"
+      src="/Chart.png"
     />
   </div>
   <div className="h-[208.5px] w-[225.9px] absolute !m-[0] bottom-[-101.2px] left-[-150.5px]">

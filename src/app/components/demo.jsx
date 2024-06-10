@@ -11,14 +11,14 @@ const Testimonials = () => {
           <img
             className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-21xl max-w-full overflow-hidden max-h-full object-cover"
             alt=""
-            src="/rectangle.svg"
+            src="/Rectangle.svg"
           />
 
           <img
             className=" w-[243.78px] relative overflow-hidden shrink-0"
             loading="lazy"
             alt=""
-            src="/play.png"
+            src="/Play.png"
           />
         </div> 
          {/* <VideoPlayer /> */}
@@ -42,7 +42,7 @@ const Testimonials = () => {
                   className="h-[18px] w-[18px] relative rounded-12xs-5 min-h-[18px]"
                   loading="lazy"
                   alt=""
-                  src="/star.svg"
+                  src="/Star.svg"
                 />
               </div>
             </div>
@@ -85,7 +85,7 @@ const Testimonials = () => {
               <img
                 className="h-[43px] w-[43px] relative rounded-[50%] object-cover min-h-[43px] shrink-0 [debug_commit:f6aba90] z-[6] ml-[-16px]"
                 alt=""
-                src="/group.svg"
+                src="/Group.svg"
               />
             </div>
           </div> 
