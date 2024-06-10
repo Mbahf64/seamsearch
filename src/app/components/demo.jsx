@@ -18,7 +18,7 @@ const Testimonials = () => {
             className=" w-[243.78px] relative overflow-hidden shrink-0"
             loading="lazy"
             alt=""
-            src="/Play.png"
+            src="/play.png"
           />
         </div> 
          {/* <VideoPlayer /> */}
