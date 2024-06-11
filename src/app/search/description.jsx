@@ -36,7 +36,7 @@ export default function FormPropsTextFields() {
 
     
         <button
-          className="capitalize font-[500] text-[16px] text-[#ffff] w-full lg:w-[195px] h-[64px] mt-1 shadow-none bg-[#563FEB] hover:bg-[#5c45ee] rounded-lg"
+          className="capitalize font-[500] text-[16px] text-[#ffff] w-full lg:w-[195px] h-[64px] mt-1 shadow-none bg-[#563FEB] hover:bg-[#5c45ee] rounded-lg cursor-pointer"
           variant="contained"
           size="large"
           onClick={handleClick}
