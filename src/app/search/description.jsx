@@ -35,17 +35,16 @@ export default function FormPropsTextFields() {
                 </FormControl>
 
     
-        <Button
-          className="capitalize font-[500] text-[16px] text-[#ffff] w-full lg:w-[195px] h-[64px] mt-1 shadow-none bg-[#563FEB] hover:bg-[#5c45ee]"
+        <button
+          className="capitalize font-[500] text-[16px] text-[#ffff] w-full lg:w-[195px] h-[64px] mt-1 shadow-none bg-[#563FEB] hover:bg-[#5c45ee] rounded-lg"
           variant="contained"
           size="large"
           onClick={handleClick}
         >
-         
           <Link href='/Store' className="no-underline text-[#ffff]">
           {buttonText}
           </Link>
-        </Button>
+        </button>
       </Box>
 
 
