@@ -1,7 +1,8 @@
 const Footer = () => {
     return (
-      <section className="self-stretch bg-gray-200 overflow-hidden flex flex-col items-start justify-start 
-      pt-20 px-[94px] 2xl:px-[335px] pb-10 box-border relative gap-[174px] max-w-full z-[9] text-left text-45xl text-neutral-10 font-text-base-semibold">
+      <section className="self-stretch bg-gray-200 overflow-hidden flex flex-col items-start w-full justify-center 
+      pt-20 px-[94px] 2xl:px-[335px] pb-10 box-border relative gap-[174px] z-[9] text-left 
+      text-45xl text-neutral-10 font-text-base-semibold">
 
 
         <img

@@ -51,9 +51,10 @@ const ResponsiveGrid = () => {
     <div>
       <div className="flex flex-grow mx-6 lg:mx-20 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center ">
             <div
-              className={`flex justify-center items-center rounded-2xl box-border w-full min-h-[343px] lg:min-h-[580px] 2xl:w-[580px] 2xl:ml-[258px]  overflow-hidden text-center ${
+              className={`flex justify-center items-center rounded-2xl box-border w-full 
+                min-h-[343px] lg:min-h-[580px] 2xl:w-[580px] overflow-hidden text-center ${
                 fileEnter ? "border-4" : "border-2"
               } border-dashed border-[#C8CCD5] bg-inherit font-body-sub-heading-16-bold`}
               onDragOver={handleDragOver}
@@ -98,7 +99,7 @@ const ResponsiveGrid = () => {
               />
             </div>
             <div className="mt-4 w-full mb-6 ">
-              <div className="flex flex-col items-center justify-start gap-[18px] text-xs text-[#84818A] 2xl:ml-[15rem]">
+              <div className="flex flex-col items-center justify-start gap-[18px] text-xs text-[#84818A]">
                 <div className="relative leading-[140%] font-medium font-body-sub-heading-16-bold">
                   Or try on the examples below:
                 </div>
@@ -133,7 +134,7 @@ const ResponsiveGrid = () => {
         </div>
       </div>
 
-      <div className="hidden lg:flex lg:justify-between px-6 lg:px-20 pt-[7rem] pb-4 font-body-sub-heading-16-bold text-[16px] text-[#84818A]">
+      <div className="flex items-center justify-spacebetween px-6 lg:px-20 pt-[7rem] pb-4 font-body-sub-heading-16-bold text-[16px] text-[#84818A] w-full">
         <div>© 2024 Seamsearch. All Rights Reserved.</div>
         <div className="flex gap-4">
           <div>Terms & Conditions</div>
